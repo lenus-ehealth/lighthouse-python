@@ -47,6 +47,7 @@ class LighthouseRunner(object):
 
         try:
             command = [
+                'npx',
                 'lighthouse',
                 url,
                 '--quiet' if quiet else '',
